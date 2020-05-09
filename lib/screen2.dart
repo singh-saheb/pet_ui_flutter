@@ -51,7 +51,7 @@ class Screen2 extends StatelessWidget {
           Align(
             alignment: Alignment.center,
             child: Container(
-              height: 120,
+              height: 100,
               margin: EdgeInsets.symmetric(horizontal: 20),
               decoration: BoxDecoration(
                   color: Colors.white,
@@ -64,7 +64,8 @@ class Screen2 extends StatelessWidget {
             alignment: Alignment.bottomCenter,
             child: Container(
               margin: EdgeInsets.symmetric(horizontal: 20),
-              height: 150,
+              padding: EdgeInsets.symmetric(horizontal: 15),
+              height: 120,
 child: Row(
   children: [
     Container(
